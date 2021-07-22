@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hybrid_map_menu"
+        android:title="Hybrid" />
+
+    <item
+        android:id="@+id/satelite_map_menu"
+        android:title="Satellite" />
+
+    <item
+        android:id="@+id/terrain_map_menu"
+        android:title="Terrain" />
+
+    <item
+        android:id="@+id/normal_map_menu"
+        android:title="Normal" />
+
+    <item
+        android:id="@+id/none_map_menu"
+        android:title="None" />
+
+    <item
+        android:id="@+id/theme_menu"
+        android:title="Themes">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:menuCategory="system">
+
+                <item
+                    android:id="@+id/night_menu"
+                    android:title="Night Mode" />
+
+                <item
+                    android:id="@+id/retro_menu"
+                    android:title="Retro Mode" />
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
